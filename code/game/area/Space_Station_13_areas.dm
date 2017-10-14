@@ -176,6 +176,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 //Maintenance - Generic
 
+/area/maintenance/abandonedbar
+	name = "Abandoned Bar"
+	icon_state = "yellow"
+
 /area/maintenance/arrivals/north
 	name = "Arrivals North Maintenance"
 	icon_state = "fpmaint"
@@ -358,6 +362,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Starboard Primary Hallway"
 	icon_state = "hallS"
 
+/area/hallway/primary/starboard/east
+
+/area/hallway/primary/starboard/west
+
 /area/hallway/primary/starboard/aft
 	name = "Starboard Quarter Primary Hallway"
 	icon_state = "hallAS"
@@ -381,6 +389,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/hallway/primary/central
 	name = "Central Primary Hallway"
 	icon_state = "hallC"
+
+/area/hallway/primary/central/ne
+
+/area/hallway/primary/central/nw
+
+/area/hallway/primary/central/se
+
+/area/hallway/primary/central/sw
 
 /area/hallway/secondary/command
 	name = "Command Hallway"
@@ -691,6 +707,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
  	icon_state = "atmos"
  	flags_1 = NONE
 
+/area/engine/atmos/distribution
+ 	name = "Atmospherics Distribution"
+ 	icon_state = "atmos"
+
+/area/engine/atmos/control
+ 	name = "Atmospherics Control Room"
+ 	icon_state = "atmos"
+
 /area/engine/atmospherics_engine
 	name = "Atmospherics Engine"
 	icon_state = "atmos_engine"
@@ -715,10 +739,28 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Engineering Storage"
 	icon_state = "engi_storage"
 
+/area/engine/hardsuitstorage
+	name = "\improper Engineering Hardsuit Storage"
+	icon_state = "storage"
+
+/area/engine/equipmentstorage
+	name = "\improper Engineering Equipment Storage"
+	icon_state = "storage"
+
+/area/engine/controlroom
+	name = "\improper Engineering Control Room"
+	icon_state = "engine_control"
+
 /area/engine/transit_tube
 	name = "Transit Tube"
 	icon_state = "transit_tube"
 
+/area/assembly/assembly_line //Derelict Assembly Line
+	name = "\improper Assembly Line"
+	icon_state = "ass_line"
+	power_equip = 0
+	power_light = 0
+	power_environ = 0
 
 //Solars
 
@@ -1441,6 +1483,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "AI Main New"
 	icon_state = "storage"
 
+
+// Misc
+/area/escapepodbay
+	name = "Escape Shuttle Hallway Podbay"
+	icon_state = "escape"
 
 
 // Telecommunications Satellite
