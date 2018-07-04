@@ -642,3 +642,17 @@
 				i++
 
 	return final_rgb
+
+// Default tool behaviors proc
+
+/atom/proc/crowbar_act(mob/user, obj/item/tool)
+	return
+
+/atom/proc/screwdriver_act(mob/user, obj/item/tool)
+	return
+
+/atom/proc/wrench_act(mob/user, obj/item/tool)
+	return
+
+/atom/proc/wirecutter_act(mob/user, obj/item/tool)
+	return
