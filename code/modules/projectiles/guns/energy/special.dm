@@ -129,9 +129,10 @@
 	force = 12
 	sharpness = IS_SHARP
 	can_charge = 0
-	
+
 	heat = 3800
 	tool_behaviour = TOOL_WELDER
+	usesound = 'sound/items/welder.ogg'
 	toolspeed = 0.7 //plasmacutters can be used as welders, and are faster than standard welders
 
 /obj/item/gun/energy/plasmacutter/examine(mob/user)
