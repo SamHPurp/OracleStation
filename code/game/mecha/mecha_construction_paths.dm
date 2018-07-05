@@ -297,7 +297,7 @@
 			else
 				user.visible_message("[user] unfastens the external armor layer.", "<span class='notice'>You unfasten the external armor layer.</span>")
 				holder.icon_state = "ripley14"
-	return 1
+	return TRUE
 
 /datum/construction/reversible/mecha/ripley/spawn_mecha_result()
 	..()
@@ -319,7 +319,7 @@
 	user.visible_message("[user] has connected [used_atom] to the [holder].", "<span class='notice'>You connect [used_atom] to the [holder].</span>")
 	holder.add_overlay(used_atom.icon_state+"+o")
 	qdel(used_atom)
-	return 1
+	return TRUE
 
 /datum/construction/mecha/gygax_chassis/action(atom/used_atom,mob/user)
 	return check_all_steps(used_atom,user)
@@ -331,8 +331,6 @@
 	const_holder.icon_state = "gygax0"
 	const_holder.density = TRUE
 	qdel(src)
-	return
-
 
 /datum/construction/reversible/mecha/gygax
 	result = /obj/mecha/combat/gygax
@@ -434,7 +432,7 @@
 
 /datum/construction/reversible/mecha/gygax/custom_action(index, diff, atom/used_atom, mob/user)
 	if(!..())
-		return 0
+		return FALSE
 
 	//TODO: better messages.
 	switch(index)
@@ -610,7 +608,7 @@
 			else
 				user.visible_message("[user] unfastens Gygax Armor Plates.", "<span class='notice'>You unfasten Gygax Armor Plates.</span>")
 				holder.icon_state = "gygax20"
-	return 1
+	return TRUE
 
 /datum/construction/reversible/mecha/gygax/spawn_mecha_result()
 	..()
@@ -630,7 +628,7 @@
 	user.visible_message("[user] has connected [used_atom] to the [holder].", "<span class='notice'>You connect [used_atom] to the [holder].</span>")
 	holder.add_overlay(used_atom.icon_state+"+o")
 	qdel(used_atom)
-	return 1
+	return TRUE
 
 /datum/construction/mecha/firefighter_chassis/action(atom/used_atom,mob/user)
 	return check_all_steps(used_atom,user)
@@ -642,7 +640,6 @@
 	const_holder.icon_state = "fireripley0"
 	const_holder.density = TRUE
 	qdel(src)
-	return
 
 
 /datum/construction/reversible/mecha/firefighter
@@ -725,7 +722,7 @@
 
 /datum/construction/reversible/mecha/firefighter/custom_action(index, diff, atom/used_atom, mob/user)
 	if(!..())
-		return 0
+		return FALSE
 
 	//TODO: better messages.
 	switch(index)
@@ -857,7 +854,7 @@
 			else
 				user.visible_message("[user] unfastens the external armor layer.", "<span class='notice'>You unfasten the external armor layer.</span>")
 				holder.icon_state = "fireripley15"
-	return 1
+	return TRUE
 
 /datum/construction/reversible/mecha/firefighter/spawn_mecha_result()
 	..()
@@ -882,15 +879,13 @@
 	user.visible_message("[user] has connected [used_atom] to the [holder].", "<span class='notice'>You connect [used_atom] to the [holder].</span>")
 	holder.add_overlay(used_atom.icon_state+"+o")
 	qdel(used_atom)
-	return 1
+	return TRUE
 
 /datum/construction/mecha/honker_chassis/spawn_result()
 	var/obj/item/mecha_parts/chassis/const_holder = holder
 	const_holder.construct = new /datum/construction/mecha/honker(const_holder)
 	const_holder.density = TRUE
 	qdel(src)
-	return
-
 
 /datum/construction/mecha/honker
 	result = /obj/mecha/combat/honker
@@ -916,7 +911,7 @@
 
 /datum/construction/mecha/honker/custom_action(step, atom/used_atom, mob/user)
 	if(!..())
-		return 0
+		return FALSE
 
 	if(istype(used_atom, /obj/item/bikehorn))
 		playsound(holder, 'sound/items/bikehorn.ogg', 50, 1)
@@ -945,12 +940,11 @@
 		if(3)
 			user.visible_message("[user] puts clown boots on the [holder].", "<span class='notice'>You put clown boots on the [holder].</span>")
 			qdel(used_atom)
-	return 1
+	return TRUE
 
 /datum/construction/mecha/honker/spawn_mecha_result()
 	..()
 	SSblackbox.inc("mecha_honker_created",1)
-	return
 
 /datum/construction/mecha/durand_chassis
 	steps = list(list("key"=/obj/item/mecha_parts/part/durand_torso), //1
@@ -965,7 +959,7 @@
 	user.visible_message("[user] has connected [used_atom] to the [holder].", "You connect [used_atom] to the [holder]")
 	holder.add_overlay(used_atom.icon_state+"+o")
 	qdel(used_atom)
-	return 1
+	return TRUE
 
 /datum/construction/mecha/durand_chassis/action(atom/used_atom,mob/user)
 	return check_all_steps(used_atom,user)
@@ -976,8 +970,7 @@
 	const_holder.icon = 'icons/mecha/mech_construction.dmi'
 	const_holder.icon_state = "durand0"
 	const_holder.density = TRUE
-	del src
-	return
+	qdel(src)
 
 /datum/construction/reversible/mecha/durand
 	result = /obj/mecha/combat/durand
@@ -1080,7 +1073,7 @@
 
 /datum/construction/reversible/mecha/durand/custom_action(index, diff, atom/used_atom, mob/user)
 	if(!..())
-		return 0
+		return FALSE
 
 	//TODO: better messages.
 	switch(index)
@@ -1256,12 +1249,11 @@
 			else
 				user.visible_message("[user] unfastens Durand Armor Plates.", "<span class='notice'>You unfasten Durand Armor Plates.</span>")
 				holder.icon_state = "durand20"
-	return 1
+	return TRUE
 
 /datum/construction/reversible/mecha/durand/spawn_mecha_result()
 	..()
 	SSblackbox.inc("mecha_durand_created",1)
-	return
 
 //PHAZON
 
@@ -1278,7 +1270,7 @@
 	user.visible_message("[user] has connected [used_atom] to the [holder].", "<span class='notice'>You connect [used_atom] to the [holder].</span>")
 	holder.add_overlay(used_atom.icon_state+"+o")
 	qdel(used_atom)
-	return 1
+	return TRUE
 
 /datum/construction/mecha/phazon_chassis/action(atom/used_atom,mob/user)
 	return check_all_steps(used_atom,user)
@@ -1289,8 +1281,7 @@
 	const_holder.icon = 'icons/mecha/mech_construction.dmi'
 	const_holder.icon_state = "phazon0"
 	const_holder.density = TRUE
-	del src
-	return
+	qdel(src)
 
 /datum/construction/reversible/mecha/phazon
 	result = /obj/mecha/combat/phazon
@@ -1410,7 +1401,7 @@
 
 /datum/construction/reversible/mecha/phazon/custom_action(index, diff, atom/used_atom, mob/user)
 	if(!..())
-		return 0
+		return FALSE
 
 	//TODO: better messages.
 	switch(index)
@@ -1613,12 +1604,11 @@
 				user.visible_message("[user] carefully inserts the anomaly core into \the [holder] and secures it.", "<span class='notice'>You slowly place the anomaly core into its socket and close its chamber.</span>")
 				qdel(used_atom)
 				spawn_mecha_result()
-	return 1
+	return TRUE
 
 /datum/construction/reversible/mecha/phazon/spawn_mecha_result()
 	..()
 	SSblackbox.inc("mecha_phazon_created",1)
-	return
 
 //ODYSSEUS
 
@@ -1635,7 +1625,7 @@
 	user.visible_message("[user] has connected [used_atom] to the [holder].", "<span class='notice'>You connect [used_atom] to the [holder].</span>")
 	holder.add_overlay(used_atom.icon_state+"+o")
 	qdel(used_atom)
-	return 1
+	return TRUE
 
 /datum/construction/mecha/odysseus_chassis/action(atom/used_atom,mob/user)
 	return check_all_steps(used_atom,user)
@@ -1646,8 +1636,7 @@
 	const_holder.icon = 'icons/mecha/mech_construction.dmi'
 	const_holder.icon_state = "odysseus0"
 	const_holder.density = TRUE
-	del src
-	return
+	qdel(src)
 
 
 /datum/construction/reversible/mecha/odysseus
@@ -1726,7 +1715,7 @@
 
 /datum/construction/reversible/mecha/odysseus/custom_action(index, diff, atom/used_atom, mob/user)
 	if(!..())
-		return 0
+		return FALSE
 
 	//TODO: better messages.
 	switch(index)
@@ -1850,9 +1839,8 @@
 			else
 				user.visible_message("[user] unfastens the external armor layer.", "<span class='notice'>You unfasten the external armor layer.</span>")
 				holder.icon_state = "odysseus14"
-	return 1
+	return TRUE
 
 /datum/construction/reversible/mecha/odysseus/spawn_mecha_result()
 	..()
 	SSblackbox.inc("mecha_odysseus_created",1)
-	return
