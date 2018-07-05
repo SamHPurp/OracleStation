@@ -8,7 +8,7 @@
 		if (W.remove_fuel(0, user))
 			playsound(holder, 'sound/items/welder2.ogg', 50, 1)
 		else
-			return 0
+			return FALSE
 	else if(istype(used_atom, /obj/item/wrench))
 		var/obj/item/W = used_atom
 		playsound(holder, W.usesound, 50, 1)
@@ -27,15 +27,15 @@
 			playsound(holder, 'sound/items/deconstruct.ogg', 50, 1)
 		else
 			to_chat(user, ("<span class='warning'>There's not enough cable to finish the task!</span>"))
-			return 0
+			return FALSE
 	else if(istype(used_atom, /obj/item/stack))
 		var/obj/item/stack/S = used_atom
 		if(S.get_amount() < 5)
 			to_chat(user, ("<span class='warning'>There's not enough material in this stack!</span>"))
-			return 0
+			return FALSE
 		else
 			S.use(5)
-	return 1
+	return TRUE
 
 /datum/construction/reversible/mecha/custom_action(index as num, diff as num, atom/used_atom, mob/user)
 	if(istype(used_atom, /obj/item/weldingtool))
@@ -43,7 +43,7 @@
 		if (W.remove_fuel(0, user))
 			playsound(holder, 'sound/items/welder2.ogg', 50, 1)
 		else
-			return 0
+			return FALSE
 	else if(istype(used_atom, /obj/item/wrench))
 		var/obj/item/W = used_atom
 		playsound(holder, W.usesound, 50, 1)
@@ -62,15 +62,15 @@
 			playsound(holder, 'sound/items/deconstruct.ogg', 50, 1)
 		else
 			to_chat(user, ("<span class='warning'>There's not enough cable to finish the task!</span>"))
-			return 0
+			return FALSE
 	else if(istype(used_atom, /obj/item/stack))
 		var/obj/item/stack/S = used_atom
 		if(S.get_amount() < 5)
 			to_chat(user, ("<span class='warning'>There's not enough material in this stack!</span>"))
-			return 0
+			return FALSE
 		else
 			S.use(5)
-	return 1
+	return TRUE
 
 
 /datum/construction/mecha/ripley_chassis
@@ -85,7 +85,7 @@
 	user.visible_message("[user] has connected [used_atom] to the [holder].", "<span class='notice'>You connect [used_atom] to the [holder].</span>")
 	holder.add_overlay(used_atom.icon_state+"+o")
 	qdel(used_atom)
-	return 1
+	return TRUE
 
 /datum/construction/mecha/ripley_chassis/action(atom/used_atom,mob/user)
 	return check_all_steps(used_atom,user)
@@ -98,8 +98,6 @@
 	const_holder.density = TRUE
 	const_holder.cut_overlays(TRUE)
 	qdel(src)
-	return
-
 
 /datum/construction/reversible/mecha/ripley
 	result = "/obj/mecha/working/ripley"
@@ -166,7 +164,7 @@
 
 /datum/construction/reversible/mecha/ripley/custom_action(index, diff, atom/used_atom, mob/user)
 	if(!..())
-		return 0
+		return FALSE
 
 	//TODO: better messages.
 	switch(index)
