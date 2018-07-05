@@ -147,6 +147,11 @@
 		cell.give(100)
 		recharge_newshot(1)
 		to_chat(user, "<span class='notice'>You insert [A] in [src], recharging it.</span>")
+	else if(istype(A, /obj/item/stack/ore/plasma))
+		var/obj/item/stack/ore/S = A
+		S.use(1)
+		recharge_newshot(1)
+		to_chat(user, "<span class='notice'>You insert [A] in [src], recharging it.</span>")
 	else
 		..()
 

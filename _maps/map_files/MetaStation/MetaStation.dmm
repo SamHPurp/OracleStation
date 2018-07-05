@@ -11793,7 +11793,7 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/mining)
 "azj" = (
-/obj/item/ore/iron,
+/obj/item/stack/ore/iron,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
@@ -13181,8 +13181,8 @@
 /turf/open/floor/plasteel/black,
 /area/engine/engineering)
 "aBS" = (
-/obj/item/ore/silver,
-/obj/item/ore/silver,
+/obj/item/stack/ore/silver,
+/obj/item/stack/ore/silver,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
@@ -13268,7 +13268,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/item/ore/glass,
+/obj/item/stack/ore/glass,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/quartermaster/warehouse)
@@ -17571,8 +17571,8 @@
 /area/quartermaster/storage)
 "aKT" = (
 /obj/structure/closet/crate,
-/obj/item/ore/glass,
-/obj/item/ore/iron,
+/obj/item/stack/ore/glass,
+/obj/item/stack/ore/iron,
 /obj/effect/turf_decal/bot,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/bottom{
 	dir = 4
@@ -80203,7 +80203,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/item/ore/slag,
+/obj/item/stack/ore/slag,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/bottom{
 	dir = 4
 	},
