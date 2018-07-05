@@ -348,6 +348,7 @@
 	container_type = NONE
 	spillable = FALSE
 	you_drink_from_this = TRUE
+	grind_results = list("aluminum" = 10)
 
 /obj/item/reagent_containers/food/drinks/soda_cans/attack(mob/M, mob/user)
 	if(M == user && !src.reagents.total_volume && user.a_intent == INTENT_HARM && user.zone_selected == "head")

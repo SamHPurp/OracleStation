@@ -122,3 +122,4 @@
 	w_class = WEIGHT_CLASS_SMALL
 	origin_tech = "engineering=2;programming=1"
 	materials = list(MAT_METAL=50, MAT_GLASS=50)
+	grind_results = list("iron" = 10, "silicon" = 10)

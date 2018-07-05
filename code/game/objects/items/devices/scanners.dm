@@ -276,6 +276,7 @@ MASS SPECTROMETER
 	throw_speed = 3
 	throw_range = 7
 	materials = list(MAT_METAL=30, MAT_GLASS=20)
+	grind_results = list("mercury" = 5, "iron" = 5, "silicon" = 5)
 	origin_tech = "magnets=1;engineering=1"
 
 /obj/item/device/analyzer/attack_self(mob/user)

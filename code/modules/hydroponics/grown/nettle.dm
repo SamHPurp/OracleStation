@@ -44,6 +44,7 @@
 	throw_range = 3
 	origin_tech = "combat=3"
 	attack_verb = list("stung")
+	grind_results = list("sacid" = 0)
 
 /obj/item/grown/nettle/pickup(mob/living/user)
 	..()
@@ -89,6 +90,7 @@
 	force = 30
 	throwforce = 15
 	origin_tech = "combat=5"
+	grind_results = list("facid" = 1, "sacid" = 1)
 
 /obj/item/grown/nettle/death/add_juice()
 	..()

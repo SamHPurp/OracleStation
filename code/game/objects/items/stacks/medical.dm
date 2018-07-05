@@ -127,6 +127,7 @@
 	heal_brute = 40
 	origin_tech = "biotech=2"
 	self_delay = 20
+	grind_results = list("styptic_powder" = 1)
 
 /obj/item/stack/medical/gauze
 	name = "medical gauze"
@@ -160,6 +161,7 @@
 	heal_burn = 40
 	origin_tech = "biotech=2"
 	self_delay = 20
+	grind_results = list("silver_sulfadiazine" = 1)
 
 /obj/item/stack/medical/splint
 	name = "splints"
