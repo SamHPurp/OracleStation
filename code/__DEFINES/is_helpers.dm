@@ -8,6 +8,8 @@
 
 #define ismovableatom(A) (istype(A, /atom/movable))
 
+#define isatom(A) (istype(A, /atom))
+
 //Turfs
 #define isopenturf(A) (istype(A, /turf/open))
 
