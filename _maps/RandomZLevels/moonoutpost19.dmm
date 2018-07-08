@@ -4606,7 +4606,7 @@
 	name = "MO19 Research"
 	})
 "gk" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	name = "Security Post";
 	req_access_txt = "201"
 	},
@@ -5672,7 +5672,7 @@
 	name = "MO19 Research"
 	})
 "hG" = (
-/obj/machinery/door/airlock/glass_research{
+/obj/machinery/door/airlock/research/glass{
 	name = "Research Storage";
 	req_access_txt = "201"
 	},
@@ -5981,11 +5981,9 @@
 	name = "MO19 Research"
 	})
 "ie" = (
-/obj/machinery/door/airlock/glass_medical{
-	glass = 0;
+/obj/machinery/door/airlock/medical/glass{
 	id_tag = "";
 	name = "Research Division";
-	opacity = 1;
 	req_access_txt = "201";
 	req_one_access_txt = "0"
 	},

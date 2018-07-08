@@ -1669,7 +1669,7 @@
 /turf/open/floor/plating,
 /area/awaymission/research/interior/security)
 "eS" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	id_tag = "outerbrig";
 	name = "Brig";
 	req_access_txt = "63"
@@ -2003,7 +2003,7 @@
 	},
 /area/awaymission/research/interior)
 "fS" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	id_tag = "outerbrig";
 	name = "Brig";
 	req_access_txt = "63"
@@ -2481,7 +2481,7 @@
 	},
 /area/awaymission/research/interior)
 "hb" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	id_tag = "outerbrig";
 	name = "Brig";
 	req_access_txt = "63"

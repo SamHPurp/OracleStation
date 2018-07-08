@@ -193,7 +193,7 @@
 /turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/escape)
 "aI" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	name = "Emergency Shuttle Brig";
 	req_access_txt = "2"
 	},
@@ -227,7 +227,7 @@
 /turf/open/floor/engine,
 /area/shuttle/escape)
 "aO" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	name = "Emergency Shuttle Airlock";
 	req_access_txt = "2"
 	},
@@ -276,7 +276,7 @@
 	name = "Box emergency shuttle";
 	timid = 1
 	},
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	name = "Emergency Shuttle Airlock"
 	},
 /turf/open/floor/plating,
@@ -414,7 +414,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
 "br" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	name = "Emergency Shuttle Airlock"
 	},
 /turf/open/floor/plating,
@@ -434,7 +434,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
 "bu" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	name = "Emergency Shuttle Cargo"
 	},
 /turf/open/floor/mineral/plastitanium,
@@ -444,7 +444,7 @@
 /turf/closed/wall,
 /area/shuttle/escape)
 "bw" = (
-/obj/machinery/door/airlock/glass_security{
+/obj/machinery/door/airlock/security/glass{
 	name = "Emergency Shuttle Infirmary"
 	},
 /turf/open/floor/mineral/plastitanium,

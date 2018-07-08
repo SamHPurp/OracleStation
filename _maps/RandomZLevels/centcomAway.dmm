@@ -1542,7 +1542,7 @@
 /turf/open/floor/plasteel/black,
 /area/awaymission/centcomAway/courtroom)
 "fG" = (
-/obj/machinery/door/airlock/glass_engineering{
+/obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering";
 	req_access_txt = "32"
 	},
@@ -1830,7 +1830,7 @@
 /turf/open/floor/plating,
 /area/awaymission/centcomAway/hangar)
 "gF" = (
-/obj/machinery/door/airlock/glass_command{
+/obj/machinery/door/airlock/command/glass{
 	name = "Bridge";
 	req_access_txt = "19"
 	},
