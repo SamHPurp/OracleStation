@@ -24,7 +24,7 @@
 
 /obj/structure/showcase/fakesec
 	name = "\improper CentCom security records"
-	desc = "Used to view and edit personnel's security records"
+	desc = "Used to view and edit personnel's security records."
 	icon = 'icons/obj/computer.dmi'
 	icon_state = "computer"
 

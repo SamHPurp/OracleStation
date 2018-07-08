@@ -226,7 +226,7 @@ update_label("John Doe", "Clowny")
 
 /obj/item/card/id/centcom
 	name = "\improper CentCom ID"
-	desc = "An ID straight from Cent. Com."
+	desc = "An ID straight from Central Command."
 	icon_state = "centcom"
 	registered_name = "Central Command"
 	assignment = "General"
@@ -237,7 +237,7 @@ update_label("John Doe", "Clowny")
 
 /obj/item/card/id/ert
 	name = "\improper CentCom ID"
-	desc = "A ERT ID card"
+	desc = "An ERT ID card."
 	icon_state = "ERT_leader"
 	registered_name = "Emergency Response Team Commander"
 	assignment = "Emergency Response Team Commander"
@@ -392,7 +392,7 @@ update_label("John Doe", "Clowny")
 
 /obj/item/card/id/away/old/apc
 	name = "APC Access ID"
-	desc = "Special ID card to allow access to APCs"
+	desc = "Special ID card to allow access to APCs."
 	access = list(ACCESS_ENGINE_EQUIP)
 
 /obj/item/card/id/admin

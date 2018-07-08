@@ -142,7 +142,7 @@
 
 /obj/machinery/implantchair/genepurge
 	name = "Genetic purifier"
-	desc = "Used to purge human genome of foreign influences"
+	desc = "Used to purge a human genome of foreign influences."
 	special = TRUE
 	special_name = "Purge genome"
 	injection_cooldown = 0
@@ -183,4 +183,3 @@
 	message_admins("[key_name_admin(user)] brainwashed [key_name_admin(C)] with objective '[objective]'.")
 	log_game("[key_name_admin(user)] brainwashed [key_name_admin(C)] with objective '[objective]'.")
 	return 1
-

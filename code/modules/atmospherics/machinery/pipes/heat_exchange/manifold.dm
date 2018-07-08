@@ -3,7 +3,7 @@
 	icon_state = "manifold2"
 
 	name = "pipe manifold"
-	desc = "A manifold composed of regular pipes"
+	desc = "A manifold composed of regular pipes."
 
 	dir = SOUTH
 	initialize_directions_he = EAST|NORTH|WEST
@@ -41,7 +41,7 @@
 	icon_state = "manifold4w2"
 
 	name = "4-way pipe manifold"
-	desc = "A manifold composed of heat-exchanging pipes"
+	desc = "A manifold composed of heat-exchanging pipes."
 
 	initialize_directions_he = NORTH|SOUTH|EAST|WEST
 

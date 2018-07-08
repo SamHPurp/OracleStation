@@ -2384,7 +2384,7 @@
 			if(!newname)
 				return
 			G.name = newname
-			var/description = input("Enter centcom message contents:") as message|null
+			var/description = input("Enter CentCom message contents:") as message|null
 			if(!description)
 				return
 			G.report_message = description
@@ -2447,7 +2447,7 @@
 					fax = F
 
 
-		var/input_text = input(src.owner, "Please enter a message to send a fax via secure connection. Use <br> for line breaks. Both pencode and HTML work.", "Outgoing message from Centcomm", "") as message|null
+		var/input_text = input(src.owner, "Please enter a message to send a fax via secure connection. Use <br> for line breaks. Both pencode and HTML work.", "Outgoing message from CentCom", "") as message|null
 		if(!input_text)
 			qdel(P)
 			return

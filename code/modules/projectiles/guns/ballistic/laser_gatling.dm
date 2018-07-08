@@ -3,7 +3,7 @@
 //The ammo/gun is stored in a back slot item
 /obj/item/minigunpack
 	name = "backpack power source"
-	desc = "The massive external power source for the laser gatling gun"
+	desc = "The massive external power source for the laser gatling gun."
 	icon = 'icons/obj/guns/minigun.dmi'
 	icon_state = "holstered"
 	item_state = "backpack"
@@ -145,5 +145,3 @@
 
 /obj/item/gun/ballistic/minigun/dropped(mob/living/user)
 	ammo_pack.attach_gun(user)
-
-
