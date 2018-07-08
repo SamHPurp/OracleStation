@@ -3280,7 +3280,7 @@
 	},
 /area/awaymission/snowdin/sekret)
 "iW" = (
-/obj/structure/sign/bluecross{
+/obj/structure/sign/departments/medbay{
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel{
@@ -4644,7 +4644,7 @@
 	},
 /area/awaymission/snowdin/sekret)
 "ms" = (
-/obj/structure/sign/securearea{
+/obj/structure/sign/warning/securearea{
 	desc = "A warning sign which reads 'WEAPONS HOT'.";
 	name = "WEAPONS HOT";
 	pixel_y = 32
@@ -5086,7 +5086,7 @@
 	},
 /area/awaymission/snowdin/sekret)
 "nu" = (
-/obj/structure/sign/securearea{
+/obj/structure/sign/warning/securearea{
 	desc = "A warning sign which reads 'WEAPONS HOT'.";
 	name = "WEAPONS HOT";
 	pixel_y = -32

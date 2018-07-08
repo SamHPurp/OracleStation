@@ -792,7 +792,7 @@
 /turf/open/space,
 /area/space)
 "cA" = (
-/obj/structure/sign/securearea,
+/obj/structure/sign/warning/securearea,
 /turf/closed/indestructible{
 	icon_state = "iron0"
 	},

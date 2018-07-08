@@ -427,7 +427,7 @@
 /obj/machinery/light/small/built{
 	dir = 4
 	},
-/obj/structure/sign/pods{
+/obj/structure/sign/warning/pods{
 	desc = "A warning sign which warns of potential mech traffic to and from different levels of the mine.";
 	name = "\improper MECH TUNNEL PASSAGE B1 TO A2";
 	pixel_x = 32
@@ -868,7 +868,7 @@
 	name = "\improper BMP Asteroid Level 2"
 	})
 "bP" = (
-/obj/structure/sign/pods{
+/obj/structure/sign/warning/pods{
 	desc = "A warning sign which warns of potential mech traffic to and from different levels of the mine.";
 	name = "\improper MECH TUNNEL PASSAGE A2 TO B1";
 	pixel_x = 32
@@ -1055,7 +1055,7 @@
 	},
 /area/awaymission/BMPship)
 "ck" = (
-/obj/structure/sign/xeno_warning_mining{
+/obj/structure/sign/warning/xeno_mining{
 	pixel_y = -32
 	},
 /turf/open/floor/plating/asteroid/basalt{
@@ -1205,7 +1205,7 @@
 	},
 /area/awaymission/research)
 "cE" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	name = "\improper LOW AIR AREA";
 	pixel_x = 32
 	},
@@ -1255,9 +1255,9 @@
 	name = "\improper BMP Asteroid Level 2"
 	})
 "cK" = (
-/obj/structure/sign/securearea{
-	desc = "A warning sign which reads 'HOLY SHIT NIGGA WHAT ARE YOU DOING'.";
-	name = "\improper HOLY SHIT NIGGA WHAT ARE YOU DOING"
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'HOLY SHIT WHAT ARE YOU DOING'.";
+	name = "\improper HOLY SHIT WHAT ARE YOU DOING"
 	},
 /turf/closed/wall{
 	baseturf = /turf/open/floor/plating/asteroid/basalt
@@ -1395,7 +1395,7 @@
 	},
 /area/awaymission/research)
 "cZ" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	name = "\improper LOW AIR AREA";
 	pixel_x = 32
 	},
@@ -1423,7 +1423,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/structure/sign/pods{
+/obj/structure/sign/warning/pods{
 	desc = "A warning sign which warns of potential mech traffic to and from different levels of the mine.";
 	name = "\improper MECH TUNNEL PASSAGE A2 TO A1";
 	pixel_x = -32
@@ -2338,7 +2338,7 @@
 	name = "\improper BMP Asteroid Level 2"
 	})
 "fp" = (
-/obj/structure/sign/pods{
+/obj/structure/sign/warning/pods{
 	desc = "A warning sign which warns of potential mech traffic to and from different levels of the mine.";
 	name = "\improper MECH TUNNEL PASSAGE A1 TO A2";
 	pixel_x = -32
@@ -2486,7 +2486,7 @@
 	},
 /area/awaymission/BMPship)
 "fI" = (
-/obj/structure/sign/bluecross{
+/obj/structure/sign/departments/medbay{
 	pixel_x = -32
 	},
 /turf/open/floor/plating/asteroid/basalt{
@@ -2506,7 +2506,7 @@
 	},
 /area/awaymission/BMPship)
 "fL" = (
-/obj/structure/sign/examroom{
+/obj/structure/sign/departments/examroom{
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel{

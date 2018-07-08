@@ -200,7 +200,7 @@
 	},
 /area/shuttle/abandoned)
 "aw" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_x = -32
 	},
 /obj/effect/decal/cleanable/dirt{
@@ -802,7 +802,7 @@
 /area/shuttle/abandoned)
 "bv" = (
 /obj/structure/reagent_dispensers/fueltank,
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_x = -32
 	},
 /obj/effect/decal/cleanable/dirt{
@@ -1190,7 +1190,7 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "ce" = (
-/obj/structure/sign/science{
+/obj/structure/sign/departments/science{
 	pixel_y = -32
 	},
 /obj/effect/decal/cleanable/dirt{
@@ -1238,7 +1238,7 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned)
 "cj" = (
-/obj/structure/sign/botany,
+/obj/structure/sign/departments/botany,
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/abandoned)
 "ck" = (
@@ -1272,7 +1272,7 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/abandoned)
 "cn" = (
-/obj/structure/sign/bluecross_2,
+/obj/structure/sign/departments/medbay/alt,
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/abandoned)
 "co" = (

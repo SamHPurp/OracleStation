@@ -571,7 +571,7 @@
 	},
 /area/awaymission/research/interior/engineering)
 "bP" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_x = 32
 	},
 /turf/open/floor/plating,
@@ -609,7 +609,7 @@
 /turf/open/floor/plasteel/black,
 /area/awaymission/research/interior/gateway)
 "bV" = (
-/obj/structure/sign/nosmoking_1{
+/obj/structure/sign/warning/nosmoking/circle{
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/whiteyellow/side{
@@ -1857,7 +1857,7 @@
 /turf/open/floor/plasteel/whitered/side,
 /area/awaymission/research/interior/security)
 "fv" = (
-/obj/structure/sign/goldenplaque{
+/obj/structure/sign/plaques/golden{
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel/whitered/corner{
@@ -2292,7 +2292,7 @@
 /turf/open/floor/plasteel/whitepurple,
 /area/awaymission/research/interior)
 "gB" = (
-/obj/structure/sign/science,
+/obj/structure/sign/departments/science,
 /turf/closed/wall/r_wall,
 /area/awaymission/research/interior)
 "gC" = (
@@ -3456,7 +3456,7 @@
 /turf/open/floor/plasteel/whiteblue,
 /area/awaymission/research/interior)
 "jK" = (
-/obj/structure/sign/bluecross,
+/obj/structure/sign/departments/medbay,
 /turf/closed/wall/r_wall,
 /area/awaymission/research/interior)
 "jL" = (
@@ -4282,13 +4282,13 @@
 /area/awaymission/research/exterior)
 "mg" = (
 /obj/structure/closet/emcloset,
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_y = 32
 	},
 /turf/open/floor/plating,
 /area/awaymission/research/interior/escapepods)
 "mh" = (
-/obj/structure/sign/pods{
+/obj/structure/sign/warning/pods{
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/whitegreen/corner,
@@ -4448,7 +4448,7 @@
 	},
 /area/awaymission/research/interior/escapepods)
 "mI" = (
-/obj/structure/sign/pods{
+/obj/structure/sign/warning/pods{
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/whitegreen/side{
@@ -4537,7 +4537,7 @@
 	},
 /area/awaymission/research/interior/escapepods)
 "mU" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_y = -32
 	},
 /obj/machinery/light,
@@ -4552,7 +4552,7 @@
 	},
 /area/awaymission/research/interior/escapepods)
 "mW" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_y = -32
 	},
 /turf/open/floor/plasteel/whitegreen/side{

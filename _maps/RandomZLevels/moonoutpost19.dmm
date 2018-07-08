@@ -1500,7 +1500,7 @@
 	name = "Syndicate Outpost"
 	})
 "ce" = (
-/obj/structure/sign/biohazard{
+/obj/structure/sign/warning/biohazard{
 	pixel_y = 32
 	},
 /obj/structure/alien/weeds/node,
@@ -1536,7 +1536,7 @@
 	name = "Syndicate Outpost"
 	})
 "cg" = (
-/obj/structure/sign/securearea{
+/obj/structure/sign/warning/securearea{
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/stripes/corner{
@@ -2635,7 +2635,7 @@
 	poweralm = 0
 	})
 "dB" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	desc = "A warning sign which reads 'HOSTILE ATMOSPHERE AHEAD'";
 	name = "\improper HOSTILE ATMOSPHERE AHEAD";
 	pixel_y = -32
@@ -3081,7 +3081,7 @@
 	name = "MO19 Research"
 	})
 "ec" = (
-/obj/structure/sign/biohazard,
+/obj/structure/sign/warning/biohazard,
 /turf/closed/wall/r_wall,
 /area/awaycontent/a2{
 	has_gravity = 1;
@@ -3376,11 +3376,7 @@
 	name = "MO19 Research"
 	})
 "eA" = (
-/obj/structure/sign/securearea{
-	desc = "A warning sign which reads 'HIGH VOLTAGE'";
-	icon_state = "shock";
-	name = "HIGH VOLTAGE"
-	},
+/obj/structure/sign/warning/electricshock,
 /turf/closed/wall/r_wall,
 /area/awaycontent/a2{
 	has_gravity = 1;
@@ -4441,7 +4437,7 @@
 	name = "MO19 Research"
 	})
 "fX" = (
-/obj/structure/sign/biohazard{
+/obj/structure/sign/warning/biohazard{
 	pixel_x = 32
 	},
 /obj/structure/cable{
@@ -6200,7 +6196,7 @@
 	name = "MO19 Research"
 	})
 "iu" = (
-/obj/structure/sign/securearea{
+/obj/structure/sign/warning/securearea{
 	pixel_y = 32
 	},
 /obj/machinery/shower{
@@ -6870,7 +6866,7 @@
 	name = "MO19 Arrivals"
 	})
 "jx" = (
-/obj/structure/sign/science{
+/obj/structure/sign/departments/science{
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -8772,7 +8768,7 @@
 	name = "MO19 Arrivals"
 	})
 "mv" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	desc = "A warning sign which reads 'HOSTILE ATMOSPHERE AHEAD'";
 	name = "\improper HOSTILE ATMOSPHERE AHEAD"
 	},
@@ -8925,7 +8921,7 @@
 	name = "MO19 Arrivals"
 	})
 "mJ" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	desc = "A beacon used by a teleporter.";
 	icon = 'icons/obj/radio.dmi';
 	icon_state = "beacon";
@@ -9287,7 +9283,7 @@
 	name = "MO19 Arrivals"
 	})
 "nm" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	desc = "A warning sign which reads 'HOSTILE ATMOSPHERE AHEAD'";
 	name = "\improper HOSTILE ATMOSPHERE AHEAD";
 	pixel_y = 32
@@ -9638,7 +9634,7 @@
 	name = "MO19 Arrivals"
 	})
 "nK" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	desc = "A warning sign which reads 'HOSTILE ATMOSPHERE AHEAD'";
 	name = "\improper HOSTILE ATMOSPHERE AHEAD";
 	pixel_x = -32

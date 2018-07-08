@@ -2906,7 +2906,7 @@
 /turf/closed/indestructible/riveted,
 /area/centcom/prison)
 "iN" = (
-/obj/structure/sign/securearea,
+/obj/structure/sign/warning/securearea,
 /turf/closed/indestructible/riveted,
 /area/centcom/prison)
 "iO" = (
@@ -3012,12 +3012,7 @@
 /area/centcom/control)
 "jd" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/structure/sign/securearea{
-	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRLOCK"
-	},
+/obj/structure/sign/warning/vacuum/external,
 /turf/open/floor/plating,
 /area/centcom/supply)
 "je" = (
@@ -4466,7 +4461,7 @@
 /turf/closed/indestructible/fakeglass,
 /area/syndicate_mothership/control)
 "mB" = (
-/obj/structure/sign/nosmoking_2,
+/obj/structure/sign/warning/nosmoking,
 /turf/closed/indestructible/riveted,
 /area/centcom/ferry)
 "mC" = (
@@ -5499,7 +5494,7 @@
 /area/centcom/ferry)
 "oU" = (
 /obj/structure/dresser,
-/obj/structure/sign/goldenplaque/captain{
+/obj/structure/sign/plaques/golden/captain{
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel/vault{
@@ -5913,7 +5908,7 @@
 /turf/open/floor/plasteel/grimy,
 /area/centcom/ferry)
 "pU" = (
-/obj/structure/sign/securearea,
+/obj/structure/sign/warning/securearea,
 /turf/closed/indestructible/riveted,
 /area/centcom/ferry)
 "pV" = (
@@ -6790,7 +6785,7 @@
 	},
 /area/centcom/control)
 "rR" = (
-/obj/structure/sign/securearea,
+/obj/structure/sign/warning/securearea,
 /turf/closed/indestructible/riveted,
 /area/centcom/control)
 "rS" = (
@@ -7597,7 +7592,7 @@
 /turf/open/floor/carpet,
 /area/wizard_station)
 "tR" = (
-/obj/structure/sign/securearea{
+/obj/structure/sign/warning/securearea{
 	desc = "A warning sign which reads 'FOURTH WALL'.";
 	name = "\improper FOURTH WALL";
 	pixel_x = -32
@@ -8120,7 +8115,7 @@
 /area/syndicate_mothership/control)
 "vr" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/structure/sign/vacuum,
+/obj/structure/sign/warning/vacuum,
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "vs" = (
@@ -8141,7 +8136,7 @@
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_y = -28
 	},
-/obj/structure/sign/securearea{
+/obj/structure/sign/warning/securearea{
 	pixel_x = 32
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -8834,7 +8829,7 @@
 	},
 /area/centcom/ferry)
 "xm" = (
-/obj/structure/sign/bluecross_2,
+/obj/structure/sign/departments/medbay/alt,
 /turf/closed/indestructible/riveted,
 /area/centcom/control)
 "xn" = (
@@ -9318,7 +9313,7 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/box/emps,
 /obj/item/gun/energy/ionrifle,
-/obj/structure/sign/bluecross_2{
+/obj/structure/sign/departments/medbay/alt{
 	pixel_y = -32
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -10593,7 +10588,7 @@
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
 "BL" = (
-/obj/structure/sign/nosmoking_2,
+/obj/structure/sign/warning/nosmoking,
 /turf/closed/indestructible/riveted,
 /area/tdome/tdomeobserve)
 "BM" = (
@@ -10768,7 +10763,7 @@
 /area/tdome/tdomeobserve)
 "Ca" = (
 /obj/structure/table/wood,
-/obj/structure/sign/goldenplaque{
+/obj/structure/sign/plaques/golden{
 	pixel_y = 32
 	},
 /obj/item/clothing/accessory/lawyers_badge{
@@ -10789,7 +10784,7 @@
 /area/tdome/tdomeobserve)
 "Cd" = (
 /obj/structure/table/wood,
-/obj/structure/sign/goldenplaque{
+/obj/structure/sign/plaques/golden{
 	pixel_y = 32
 	},
 /obj/item/clothing/accessory/medal/silver{
@@ -10983,7 +10978,7 @@
 /area/tdome/tdomeobserve)
 "CE" = (
 /obj/structure/table/wood,
-/obj/structure/sign/atmosplaque/thunderdome{
+/obj/structure/sign/plaques/thunderdome{
 	pixel_y = -32
 	},
 /obj/item/clothing/accessory/medal/gold{
@@ -11001,7 +10996,7 @@
 /area/tdome/tdomeobserve)
 "CG" = (
 /obj/structure/table/wood,
-/obj/structure/sign/atmosplaque/thunderdome{
+/obj/structure/sign/plaques/thunderdome{
 	pixel_y = -32
 	},
 /obj/item/clothing/accessory/medal{

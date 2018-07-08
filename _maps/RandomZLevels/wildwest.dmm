@@ -1402,7 +1402,7 @@
 	},
 /area/awaymission/wwgov)
 "eJ" = (
-/obj/structure/sign/vacuum,
+/obj/structure/sign/warning/vacuum,
 /turf/closed/wall/r_wall,
 /area/awaymission/wwrefine)
 "eK" = (

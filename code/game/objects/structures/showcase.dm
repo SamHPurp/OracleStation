@@ -119,10 +119,10 @@
 			deconstruction_state = SHOWCASE_SCREWDRIVERED
 
 	if(istype(W, /obj/item/crowbar) && deconstruction_state == SHOWCASE_SCREWDRIVERED)
-		if(do_after(user, 20*W.toolspeed, target = src))
+		if(W.use_tool(src, user, 20, volume=100))
 			playsound(loc, W.usesound, 100, 1)
 			to_chat(user, "<span class='notice'>You start to crowbar the showcase apart...</span>")
-			new /obj/item/stack/sheet/metal (get_turf(src), 4)
+			new /obj/item/stack/sheet/metal(drop_location(), 4)
 			qdel(src)
 
 	if(deconstruction_state == SHOWCASE_CONSTRUCTED && default_unfasten_wrench(user, W))

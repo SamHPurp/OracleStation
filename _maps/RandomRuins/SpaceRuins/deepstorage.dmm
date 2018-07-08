@@ -3198,7 +3198,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/structure/sign/securearea{
+/obj/structure/sign/warning/securearea{
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/stripes/corner{
@@ -3228,7 +3228,7 @@
 /obj/machinery/camera{
 	network = list("Bunker1")
 	},
-/obj/structure/sign/securearea{
+/obj/structure/sign/warning/securearea{
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/stripes/corner{
@@ -3266,7 +3266,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
 	},
-/obj/structure/sign/electricshock{
+/obj/structure/sign/warning/electricshock{
 	pixel_y = 32
 	},
 /turf/open/floor/plating{
@@ -3486,7 +3486,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/structure/sign/electricshock{
+/obj/structure/sign/warning/electricshock{
 	pixel_y = -32
 	},
 /turf/open/floor/plating{
@@ -3782,7 +3782,7 @@
 	dir = 5
 	},
 /obj/machinery/autolathe,
-/obj/structure/sign/radiation{
+/obj/structure/sign/warning/radiation{
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/floorgrime{

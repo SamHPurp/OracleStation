@@ -275,7 +275,7 @@
 /turf/open/floor/plasteel/black,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
 "aC" = (
-/obj/structure/sign/securearea,
+/obj/structure/sign/warning/securearea,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/testlab)
 "aD" = (
@@ -981,7 +981,7 @@
 /area/ruin/unpowered/syndicate_lava_base/chemistry)
 "bF" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/chemistry{
+/obj/structure/sign/departments/chemistry{
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel/white/side{
@@ -1341,7 +1341,7 @@
 /turf/open/floor/plasteel,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
 "ch" = (
-/obj/structure/sign/securearea,
+/obj/structure/sign/warning/securearea,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
 "ci" = (
@@ -1389,7 +1389,7 @@
 	},
 /area/ruin/unpowered/syndicate_lava_base/virology)
 "cm" = (
-/obj/structure/sign/biohazard,
+/obj/structure/sign/warning/biohazard,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/virology)
 "cn" = (
@@ -1512,17 +1512,17 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
 "cy" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_y = -32
 	},
 /obj/machinery/light/small,
 /turf/open/floor/plating,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
 "cz" = (
-/obj/structure/sign/fire{
+/obj/structure/sign/warning/fire{
 	pixel_y = 32
 	},
-/obj/structure/sign/xeno_warning_mining{
+/obj/structure/sign/warning/xeno_mining{
 	pixel_y = -32
 	},
 /turf/open/floor/plating,
@@ -1961,7 +1961,7 @@
 	},
 /area/ruin/unpowered/syndicate_lava_base/main)
 "cZ" = (
-/obj/structure/sign/cargo,
+/obj/structure/sign/departments/cargo,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/cargo)
 "da" = (
@@ -2238,7 +2238,7 @@
 /area/ruin/unpowered/syndicate_lava_base/virology)
 "dD" = (
 /obj/machinery/disposal/bin,
-/obj/structure/sign/deathsposal{
+/obj/structure/sign/warning/deathsposal{
 	pixel_x = 32
 	},
 /obj/structure/disposalpipe/trunk{
@@ -2349,7 +2349,7 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered/syndicate_lava_base/virology)
 "dQ" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_x = -32
 	},
 /turf/open/floor/plating,
@@ -2362,7 +2362,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/sign/fire{
+/obj/structure/sign/warning/fire{
 	pixel_x = 32
 	},
 /obj/structure/closet/emcloset/anchored,
@@ -2641,7 +2641,7 @@
 /turf/open/floor/plasteel,
 /area/ruin/unpowered/syndicate_lava_base/main)
 "ey" = (
-/obj/structure/sign/securearea,
+/obj/structure/sign/warning/securearea,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/main)
 "ez" = (
@@ -3431,7 +3431,7 @@
 	},
 /area/ruin/unpowered/syndicate_lava_base/main)
 "fW" = (
-/obj/structure/sign/engineering,
+/obj/structure/sign/departments/engineering,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/engineering)
 "fX" = (
@@ -3971,7 +3971,7 @@
 /turf/open/floor/plasteel/white,
 /area/ruin/unpowered/syndicate_lava_base/medbay)
 "gV" = (
-/obj/structure/sign/bluecross_2,
+/obj/structure/sign/departments/medbay/alt,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/medbay)
 "gW" = (
@@ -3979,7 +3979,7 @@
 	dir = 8
 	},
 /obj/machinery/power/smes/engineering,
-/obj/structure/sign/electricshock{
+/obj/structure/sign/warning/electricshock{
 	pixel_x = -32
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -4657,7 +4657,7 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered/syndicate_lava_base/telecomms)
 "ip" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_x = -32
 	},
 /turf/open/floor/plating,
@@ -4669,7 +4669,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/sign/fire{
+/obj/structure/sign/warning/fire{
 	pixel_x = 32
 	},
 /obj/structure/closet/emcloset/anchored,
@@ -4846,7 +4846,7 @@
 /turf/open/floor/circuit/green,
 /area/ruin/unpowered/syndicate_lava_base/telecomms)
 "iK" = (
-/obj/structure/sign/securearea,
+/obj/structure/sign/warning/securearea,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/telecomms)
 "iL" = (
@@ -5857,7 +5857,7 @@
 /turf/open/floor/plasteel/black,
 /area/ruin/unpowered/syndicate_lava_base/telecomms)
 "kt" = (
-/obj/structure/sign/vacuum{
+/obj/structure/sign/warning/vacuum{
 	pixel_x = -32
 	},
 /obj/machinery/light/small{
@@ -5898,9 +5898,7 @@
 	frequency = 1441;
 	id = "syndie_lavaland_inc_in"
 	},
-/obj/structure/sign/vacuum{
-	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
-	name = "EXTERNAL AIRLOCK";
+/obj/structure/sign/warning/vacuum/external{
 	pixel_y = -32
 	},
 /turf/open/floor/engine{
@@ -5917,10 +5915,10 @@
 	},
 /area/ruin/unpowered/syndicate_lava_base/engineering)
 "kz" = (
-/obj/structure/sign/xeno_warning_mining{
+/obj/structure/sign/warning/xeno_mining{
 	pixel_x = -32
 	},
-/obj/structure/sign/fire{
+/obj/structure/sign/warning/fire{
 	pixel_x = 32
 	},
 /turf/open/floor/plating,
@@ -5941,7 +5939,7 @@
 	},
 /area/ruin/unpowered/syndicate_lava_base/engineering)
 "kB" = (
-/obj/structure/sign/securearea,
+/obj/structure/sign/warning/securearea,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/unpowered/syndicate_lava_base/arrivals)
 "kC" = (
