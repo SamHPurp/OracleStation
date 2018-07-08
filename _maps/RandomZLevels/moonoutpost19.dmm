@@ -1250,7 +1250,7 @@
 	name = "Syndicate Outpost"
 	})
 "bO" = (
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Break Room"
 	},
 /turf/open/floor/plasteel{
@@ -1693,7 +1693,7 @@
 	name = "Syndicate Outpost"
 	})
 "cr" = (
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	density = 0;
 	emagged = 1;
 	icon_state = "open";
@@ -7447,7 +7447,7 @@
 	})
 "km" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Diner"
 	},
 /turf/open/floor/plasteel{

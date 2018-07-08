@@ -92,7 +92,7 @@
 /turf/open/floor/noslip,
 /area/shuttle/escape)
 "as" = (
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Emergency Shuttle Premium Lounge";
 	req_access_txt = "0"
 	},
@@ -136,7 +136,7 @@
 /turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/escape)
 "aA" = (
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Emergency Shuttle Greentext";
 	req_access_txt = "0"
 	},
@@ -268,7 +268,7 @@
 /turf/open/floor/bluespace,
 /area/shuttle/escape)
 "aU" = (
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Emergency Shuttle Infirmary"
 	},
 /turf/open/floor/bluespace,

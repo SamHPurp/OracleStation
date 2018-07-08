@@ -1129,7 +1129,7 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/derelict/bridge/access)
 "dp" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -2898,7 +2898,7 @@
 /turf/open/floor/plasteel/airless/white,
 /area/ruin/space/derelict/medical)
 "ja" = (
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Med-Sci";
 	req_access_txt = "9"
 	},

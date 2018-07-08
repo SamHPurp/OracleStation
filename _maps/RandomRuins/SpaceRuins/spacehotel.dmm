@@ -1312,12 +1312,12 @@
 	name = "Hotel Guest Room 1"
 	})
 "df" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/machinery/door/firedoor,
 /turf/open/floor/carpet,
 /area/ruin/space/has_grav/hotel)
 "dg" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/carpet,
@@ -2330,7 +2330,7 @@
 /turf/open/floor/carpet,
 /area/ruin/space/has_grav/hotel)
 "fW" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -2385,7 +2385,7 @@
 /turf/open/floor/carpet,
 /area/ruin/space/has_grav/hotel)
 "gf" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/machinery/door/firedoor,
 /turf/open/floor/carpet,
 /area/ruin/space/has_grav/hotel/dock)
@@ -3138,7 +3138,7 @@
 /turf/open/floor/carpet,
 /area/ruin/space/has_grav/hotel)
 "il" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -3653,7 +3653,7 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/hotel/pool)
 "ju" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -3669,7 +3669,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/pool)
 "jw" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{

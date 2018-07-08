@@ -558,7 +558,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -684,7 +684,7 @@
 /turf/open/floor/plasteel/airless,
 /area/ruin/space/has_grav/onehalf/hallway)
 "bC" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/door/airlock/public/glass,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},

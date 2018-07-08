@@ -1809,7 +1809,7 @@
 	})
 "da" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
 	},
 /turf/open/floor/plasteel{
@@ -2440,7 +2440,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Hydroponics";
 	req_access_txt = "201"
 	},
@@ -2625,7 +2625,7 @@
 	})
 "eo" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Hydroponics";
 	req_access_txt = "201"
 	},
@@ -3821,7 +3821,7 @@
 "ge" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
 	},
 /turf/open/floor/plasteel{
@@ -4855,7 +4855,7 @@
 	})
 "hP" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Kitchen";
 	req_access_txt = "201"
 	},
@@ -5919,7 +5919,7 @@
 "jt" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
 	},
 /turf/open/floor/plasteel{
@@ -5931,7 +5931,7 @@
 	})
 "ju" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
 	},
 /turf/open/floor/plasteel{
@@ -6580,7 +6580,7 @@
 	})
 "kp" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Diner"
 	},
 /turf/open/floor/plasteel{
@@ -7829,7 +7829,7 @@
 "lV" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Diner"
 	},
 /turf/open/floor/plasteel{
@@ -7848,7 +7848,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Diner"
 	},
 /turf/open/floor/plasteel{
@@ -8566,7 +8566,7 @@
 "mV" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Dormitories"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -8580,7 +8580,7 @@
 "mW" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Dormitories"
 	},
 /turf/open/floor/plasteel{
@@ -9065,7 +9065,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Dormitories"
 	},
 /turf/open/floor/plasteel{
@@ -9706,7 +9706,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass{
+/obj/machinery/door/airlock/public/glass{
 	name = "Dormitories"
 	},
 /turf/open/floor/plasteel{
